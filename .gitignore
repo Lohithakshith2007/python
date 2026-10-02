@@ -1,1 +1,3 @@
-free.py
+__pycache__/
+*.pyc
+/free.py
