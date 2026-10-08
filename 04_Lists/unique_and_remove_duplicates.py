@@ -17,6 +17,8 @@ for i in unique_list:
         if largest is None or i>largest:
             second_largest=largest
             largest=i
+        elif second_largest is None or i>second_largest:
+             second_largest=i
 
 print(f"original list: {numbers}")
 print(f"unique list: {sorted(unique_list)}")
